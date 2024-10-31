@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "Modificar nome arquivo"$'\n'"---------------"
 ls
 echo "Qual arquivo quer modificar: "

@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "--------"$'\n'"Criar arquivos"$'\n'"------------"$'\n'"Qual o nome do arquivo: "
 read nome
 

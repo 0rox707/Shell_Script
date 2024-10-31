@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "   Deletar arquivos"$'\n'"---------------------"
 ls
 echo "---------------------"$'\n'"Qual arquivo gostaria de deletar:"
