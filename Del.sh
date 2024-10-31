@@ -6,7 +6,7 @@ read nome
 
 if [ -e $nome ];then 
     rm $nome 
-    git rm --cached $nome
+    git rm $nome
 else
     echo "Este arquivo não existe!"
 fi
