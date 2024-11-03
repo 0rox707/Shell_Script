@@ -1,0 +1,18 @@
+<nome do codigo>.sh - <Oque o codigo faz!>
+
+GitHub:         https://github.com/0rox707
+Autor:          João Victor Gomes
+=----------------------------------------------------=
+<Detalha oque p programa ira fazer>
+
+Exemplo: 
+    ./Como_executar -o script
+    <Explicação dos parametros caso nessessario>
+=----------------------------------------------------=
+Hitórico:
+    versoes anteriores 
+    versão atual
+=----------------------------------------------------=
+Testado em:
+    versão atual do bash (' bash --version ' para ver a versão)
+    

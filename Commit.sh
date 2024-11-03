@@ -3,7 +3,7 @@ clear
 echo "Fazer commit"$'\n'"--------------"$'\n'"Mensagem de commit"$'\n'"Para cancelar o Commit digite //c"
 read msg
 clear
-if [ $msg = "//c" ] || [ $msg = "//C" ];then 
+if [ $msg = "//c" ] || [ $msg = "//C"];then 
     i=0
     echo -n "encerrando"
     while [ $i -lt 2 ];do
