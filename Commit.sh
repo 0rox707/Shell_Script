@@ -12,6 +12,7 @@ if [ $msg = "//c" ] || [ $msg = "//C"];then
     sleep 0.5
     done
     echo "."
+    exit
     
 fi
 git commit -m "$msg"
