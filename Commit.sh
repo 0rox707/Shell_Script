@@ -14,12 +14,13 @@ if [ $msg = "//c" ];then
     echo "."
     
 fi
+git commit -m "$msg"
 while [ 0 -eq 0 ];do
     clear
     echo "Gostaria de da push para o repertorio remoto"$'\n'"s/n"
     read r
     if [ $r == "s" ] || [ $s == "S" ];then
-        git commit -m "$msg"
+
         exit
     elif [ $r == "N" ] || [ $s == "n" ];then
         echo "encerando!"
