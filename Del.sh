@@ -2,11 +2,8 @@
 clear
 echo "   Deletar arquivos"$'\n'"---------------------"
 ls
-echo "---------------------"$'\n'"Qual arquivo gostaria de deletar:"
-read nome
-
-if [ -e $nome ];then 
-    rm $nome 
+if [ -e $1 ];then 
+    rm $1 
 else
     echo "Este arquivo não existe!"
 fi
@@ -17,9 +14,9 @@ while [ true ];do
     read sc
 
     if [ $sc = "S" ] || [ $sc = "s" ];then
-        git rm $nome
+        git rm $1
         clear
-        echo "Arquivo $nome removido do versionamento"
+        echo "Arquivo $1 removido do versionamento"
         exit
     elif [ $sc = "N" ] || [ $sc = "n" ];then
         echo -n "Encerrando"
