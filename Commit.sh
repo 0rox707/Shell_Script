@@ -42,7 +42,7 @@ while [ 0 -eq 0 ];do
         git push -u origin master
         echo "push feito com sucesso!"
         exit
-    elif [ $r == "N" ] || [ $s == "n" ];then
+    elif [ $r = "N" ] || [ $s = "n" ];then
         echo "encerando!"
         exit
     else
