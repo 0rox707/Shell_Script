@@ -12,7 +12,23 @@ if [ $msg = "//c" ];then
     sleep 0.5
     done
     echo "."
-    exit
+    
 fi
-git commit -m "$msg"
-exit
+while [ 0 -eq 0 ];do
+    clear
+    echo "Gostaria de da push para o repertorio remoto"$'\n'"s/n"
+    read r
+    if [ $r == "s" ] || [ $s == "S" ];then
+        git commit -m "$msg"
+        exit
+    elif [ $r == "N" ] || [ $s == "n" ];then
+        echo "encerando!"
+        exit
+    else
+        echo "Opção invalida!!"
+    fi
+done
+
+
+
+
