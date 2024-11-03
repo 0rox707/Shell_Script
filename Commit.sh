@@ -19,7 +19,7 @@ while [ 0 -eq 0 ];do
     clear
     echo "Gostaria de da push para o repertorio remoto"$'\n'"s/n"
     read r
-    if [ $r == "s" ] || [ $s == "S" ];then
+    if [ $r = "s" ] || [ $s = "S" ];then
         git push -u origin master
         echo "push feito com sucesso!"
         exit
