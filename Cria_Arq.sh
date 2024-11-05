@@ -3,24 +3,24 @@ clear
 echo "--------"$'\n'"Criar arquivos"$'\n'"------------"$'\n'"Qual o nome do arquivo: "
 read nome
 clear
-if [ -e $nome ];then 
+if [ -e $1 ];then 
     echo "Este arquivo ja existe!"
 else
-    echo "Criando $nome!"
-    touch $nome
+    echo "Criando $1!"
+    touch $1
     
 fi
 
 
 while [ true ] ;do  
     clear
-    echo "Gostaria de adicionar $nome ao versonamento git?"$'\n'"s/n"
+    echo "Gostaria de adicionar $1 ao versonamento git?"$'\n'"s/n"
     read c
 
     clear
     if [ $c = "S" ] || [ $c = "s" ];then
-        echo "Adicionando $nome ao versonamento!"
-        git add $nome
+        echo "Adicionando $1 ao versonamento!"
+        git add $1
         exit
     elif [ $c = "N" ] || [ $c = "n" ];then
         echo -n "Encerrando"
