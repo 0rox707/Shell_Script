@@ -1,4 +1,23 @@
 #!/bin/bash
+# <nome do codigo>.sh - <Oque o codigo faz!>
+
+# GitHub:         https://github.com/0rox707
+# Autor:          João Victor Gomes
+# =--------------------------------------------------------=
+# <Detalha oque p programa ira fazer>
+
+# Exemplo: 
+#     ./Del Arquivo_Delete
+#     <Explicação dos parametros caso nessessario>
+# =--------------------------------------------------------=
+# Hitórico:
+#     Versão 1
+# =--------------------------------------------------------=
+# Testado em:
+#     3.2.57(1)
+# ==========================================================
+    
+
 clear
 echo "   Deletar arquivos"$'\n'"---------------------"
 ls

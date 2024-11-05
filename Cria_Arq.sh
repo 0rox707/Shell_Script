@@ -1,8 +1,6 @@
 #!/bin/bash
 clear
-echo "--------"$'\n'"Criar arquivos"$'\n'"------------"$'\n'"Qual o nome do arquivo: "
-read nome
-clear
+echo "--------"$'\n'"Criar arquivos"$'\n'"------------"
 if [ -e $1 ];then 
     echo "Este arquivo ja existe!"
 else
